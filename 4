@@ -1,0 +1,4 @@
+num1=int(input("Enter number 1:"))
+num2=int(input("Enter number 2:"))
+print("Reminder is:",num1%num2)
+print("Floor_div is:",num1//num2)
