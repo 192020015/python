@@ -1,0 +1,8 @@
+def recur_factorial(n):
+    if n==1:
+        return n
+    else:
+        return n*recur_factorial(n-1)
+n=4
+result=recur_factorial(n)
+print("The factorial of number",n,"is",result)
