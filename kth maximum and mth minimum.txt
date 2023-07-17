@@ -1,0 +1,11 @@
+a=[]
+size=int(input("enter the size: "))
+for x in range(0,size):
+    x=int(input("enter element: "))
+    a.append(x)
+a.sort()
+print(a)
+k=int(input("enter the kth maximum: "))
+m=int(input("enter the mth minimum: "))
+print("max element=",(a[size-k]))
+print("min element=",(a[m-1]))
